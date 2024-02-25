@@ -5,5 +5,28 @@
 }
 
 #barraNavegacion {
+    
+}
+
+#logoViajes {
+    width: 30pt;
+}
+
+#navbarSupportedContent a{
     color: white;
+    margin: 10pt;
+}
+
+.mainArea {
+    background-color: black;
+    color: white;
+}
+
+.mainArea h2 {
+    text-align: center;
+    padding: 5%;
+}
+
+.quienesSomos {
+    display: flex;
 }

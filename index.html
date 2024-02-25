@@ -11,34 +11,37 @@
     <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-custom" id="barraNavegacion">
-            <div class="container">
-              <a class="navbar-brand" href="#">Viajes Chile</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-          
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom d-inline-flex">
+        <div class="container">
+            <div class="container d-flex">
+                <img src="./assets/img/viajes.svg" alt="logo viajes" id="logoViajes">            
+                <a class="navbar-brand text-light ms-2" href="#">Viajes Chile</a>
             </div>
-          </nav>
-          <!-- fin del nav  -->
-
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-fle" href="#">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- fin del nav  -->
+    <header>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -62,8 +65,31 @@
         </div>
         <!-- fin del carousel  -->
     </header>
-    <main>
-
+    <main class="mainArea">
+        <div>
+            <h2>¿Quienes somos?</h2>
+        </div>
+        <div class="quienesSomos">
+            <div class="card" style="width: 18rem;" id="qS">
+                <i class="fa-solid fa-plane"></i>
+                <div class="card-body">
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facilis ratione autem qui porro officia illum, animi asperiores distinctio omnis molestiae ipsa corporis provident nisi eligendi fugiat quibusdam, modi est!</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                 <div class="card-body">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid sequi magnam autem sunt. Esse libero alias tempora, adipisci aperiam molestiae obcaecati recusandae est, maiores corporis cum expedita sequi sunt.</p>
+                </div>
+                <i class="fa-solid fa-mountain"></i>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <i class="fa-solid fa-route"></i>
+                <div class="card-body">
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facilis ratione autem qui porro officia illum, animi asperiores distinctio omnis molestiae ipsa corporis provident nisi eligendi fugiat quibusdam, modi est!</p>
+                </div>
+              </div>
+            </div>
+        </div>
     </main>
 
 
