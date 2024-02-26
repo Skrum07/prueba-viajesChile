@@ -31,7 +31,8 @@ Etiqueta <body>:
 
 ## Autor
 
-- Nombre: Tomas Roa
-- Contacto: [Agregar aquí el contacto si es necesario]
+- Nombre: Tomas Roa Infante
+- Generacion 68 Desafio Latam
+
 
 ¡Gracias por revisar este proyecto!
