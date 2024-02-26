@@ -1,103 +1,176 @@
 <!DOCTYPE html>
 <html lang="esp">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tomas Roa">
-    <meta name="description" content="sitio web de viajes chile">
-    <meta name="keywords" content="viajes, chile, turismo, vacaciones, actividades, aire libre" >
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Tomas Roa">
+  <meta name="description" content="sitio web de viajes chile">
+  <meta name="keywords" content="viajes, chile, turismo, vacaciones, actividades, aire libre">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-custom d-inline-flex">
-        <div class="container">
-            <div class="container d-flex">
-                <img src="./assets/img/viajes.svg" alt="logo viajes" id="logoViajes">            
-                <a class="navbar-brand text-light ms-2" href="#">Viajes Chile</a>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+    <div class="container">
+      <div class="container d-flex">
+        <img class="me-2 img-fluid" src="./assets/img/viajes.svg" alt="logo viajes" id="logoViajes">
+        <a class="navbar-brand text-light ms-2" href="#">Viajes Chile</a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-inline-fle" href="#">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- fin del nav  -->
+  <header>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Llamas">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Moai">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguino">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- fin del carousel  -->
+  </header>
+  <main class="mainArea">
+    <section class="qS-title">
+      <div>
+        <h2>¿Quienes somos?</h2>
+      </div>
+      <div class="container">
+        <div class="quienesSomos d-flex" id="qS-cards">
+          <div class="card d-flex text-white bg-black" style="width: 18rem;" id="qS-plane">
+            <i class="fa-solid fa-plane bg-info d-flex justify-content-center align-items-center"></i>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facilis ratione autem
+                qui porro officia illum, animi asperiores distinctio omnis molestiae ipsa corporis provident nisi
+                eligendi fugiat quibusdam, modi est!</p>
             </div>
-          
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link d-inline-fle" href="#">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
+          </div>
+          <div class="card d-flex text-white bg-black" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid sequi magnam
+                autem sunt. Esse libero alias tempora, adipisci aperiam molestiae obcaecati recusandae est, maiores
+                corporis cum expedita sequi sunt.</p>
+            </div>
+            <i class="fa-solid fa-mountain bg-info d-flex justify-content-center align-items-center"></i>
+          </div>
+          <div class="card d-flex text-white bg-black" style="width: 18rem;">
+            <i class="fa-solid fa-route bg-info d-flex justify-content-center align-items-center"></i>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facilis ratione autem
+                qui porro officia illum, animi asperiores distinctio omnis molestiae ipsa corporis provident nisi
+                eligendi fugiat quibusdam, modi est!</p>
+            </div>
           </div>
         </div>
-      </nav>
-      <!-- fin del nav  -->
-    <header>
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Llamas">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Moai">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguino">
-              </div>
+      </div>
+      </div>
+    </section>
+    <!-- Fin de quienes somos  -->
+    <section id="destacados-section d-flex">
+      <div class="qS-title">
+        <h2>
+          DESTACADOS
+        </h2>
+      </div>
+      <div class="container d-flex mx-4">
+          <div class="card d-flex text-white bg-info mx-1" style="width: 18rem;">
+            <img src="./assets/img/card1.jpg" class="card-img-top" alt="torres">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi fugit saepe, cum cupiditate </p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <!-- fin del carousel  -->
-    </header>
-    <main class="mainArea">
-        <div>
-            <h2>¿Quienes somos?</h2>
-        </div>
-        <div class="quienesSomos">
-            <div class="card" style="width: 18rem;" id="qS">
-                <i class="fa-solid fa-plane"></i>
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facilis ratione autem qui porro officia illum, animi asperiores distinctio omnis molestiae ipsa corporis provident nisi eligendi fugiat quibusdam, modi est!</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                 <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid sequi magnam autem sunt. Esse libero alias tempora, adipisci aperiam molestiae obcaecati recusandae est, maiores corporis cum expedita sequi sunt.</p>
-                </div>
-                <i class="fa-solid fa-mountain"></i>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <i class="fa-solid fa-route"></i>
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facilis ratione autem qui porro officia illum, animi asperiores distinctio omnis molestiae ipsa corporis provident nisi eligendi fugiat quibusdam, modi est!</p>
-                </div>
-              </div>
+          </div>
+          <div class="card d-flex text-white bg-info mx-2" style="width: 18rem;">
+            <img src="./assets/img/card2.jpg" class="card-img-top" alt="lago">
+            <div class="card-body">
+              <p class="card-text">SLorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi fugit saepe, cum cupiditate</p>
+            </div>
+          </div>
+          <div class="card d-flex text-white bg-info mx-2" style="width: 18rem;">
+            <img src="./assets/img/card3.jpg" class="card-img-top" alt="salar">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi fugit saepe, cum cupiditate</p>
+            </div>
+          </div>
+          <div class="card d-flex text-white bg-info mx-1" style="width: 18rem;">
+            <img src="./assets/img/card4.jpg" class="card-img-top" alt="selva">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-    </main>
+      </div>
+    </section>
+    <!-- Fin del destacados  -->
+    <section id="section_contact" class=" pb-5 p-0 p-lg-5">
+      <div class="container px-0 mt-3">
+          <h3 class="text-center text-white">CONTACTO</h3>
+          <form class="px-4 text-white">
+              <div class="mb-3">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputName">
+              </div>
+              <div class="mb-3">
+                <label for="inputAsunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="inputAsunto">
+              </div>
+              <div class="mt-3">
+                  <label for="floatingTextarea" class="form-label">Mensaje</label>
+                  <textarea class="form-control "  id="floatingTextarea"></textarea>
+                </div>
+              <button type="button" class="btn btn-contact mt-3  mb-3 btn-info text-white " id="liveAlertBtn">Enviar</button>
+                <div id="liveAlertPlaceholder"></div>
+            </form>
+      </div>
+  </section>
+  </main>
 
 
 
 
 
-    <script src="https://kit.fontawesome.com/d74b744501.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d74b744501.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

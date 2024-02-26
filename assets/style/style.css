@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Raleway", sans-serif;
 }
 
-#barraNavegacion {
-    
-}
 
 #logoViajes {
     width: 30pt;
@@ -14,7 +14,7 @@
 
 #navbarSupportedContent a{
     color: white;
-    margin: 10pt;
+    margin: 5pt;
 }
 
 .mainArea {
@@ -22,11 +22,10 @@
     color: white;
 }
 
-.mainArea h2 {
+.qS-title h2 {
     text-align: center;
     padding: 5%;
 }
 
-.quienesSomos {
-    display: flex;
-}
+
+ 
