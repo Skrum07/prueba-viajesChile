@@ -71,7 +71,7 @@
     <!-- fin del carousel  -->
   </header>
   <main class="mainArea">
-    <section class="qS-title d-none d-md-block">
+    <section class="qS-title d-none d-md-block" id="section-about">
       <div>
         <h2>¿QUIENES SOMOS?</h2>
       </div>
@@ -106,7 +106,7 @@
       </div>
     </section>
     <!-- Fin de quienes somos  -->
-    <section id="destacados-section d-flex">
+    <section id="section-feutured">
       <div class="qS-title">
         <h2>
           DESTACADOS
@@ -140,7 +140,7 @@
       </div>
     </section>
     <!-- Fin del destacados  -->
-    <section id="section_contact" class=" pb-5 p-0 p-lg-5">
+    <section id="section-contact" class=" pb-5 p-0 p-lg-5">
       <div class="container px-0 mt-3">
           <h3 class="text-center text-white">CONTACTO</h3>
           <form class="px-4 text-white">
@@ -156,7 +156,9 @@
                   <label for="floatingTextarea" class="form-label">Mensaje</label>
                   <textarea class="form-control "  id="floatingTextarea"></textarea>
                 </div>
-              <button type="button" class="btn btn-contact mt-3  mb-3 btn-info text-white " id="liveAlertBtn">Enviar</button>
+              <button type="button" class="btn btn-contact mt-3  mb-3 btn-info text-white"  data-bs-toggle="tooltip" data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Enviame" id="liveAlertBtn">Enviar</button>
                 <div id="liveAlertPlaceholder"></div>
             </form>
       </div>
@@ -168,16 +170,16 @@
     </div>
     <section class="socialMedia" >
         <div class="d-flex align-items-center">
-          <a href="https://github.com/">
+          <a href="https://github.com/" target="_blank">
               <i class="fa-brands fa-2x fa-square-github text-white mx-2" ></i>
           </a>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/" target="_blank">
               <i class="fa-brands fa-2x fa-linkedin text-white mx-2" ></i>
           </a>
-          <a href="https://twitter.com/">
+          <a href="https://twitter.com/" target="_blank">
               <i class="fa-brands fa-2x fa-square-twitter text-white mx-2" ></i>
           </a>
-          <a href="https://facebook.com/">
+          <a href="https://facebook.com/" target="_blank">
               <i class="fa-brands  fa-2x fa-square-facebook text-white mx-2" ></i>
           </a>
       </div>
@@ -189,8 +191,9 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
     crossorigin="anonymous"></script>
   <script src="./assets/js/index.js"></script>
 

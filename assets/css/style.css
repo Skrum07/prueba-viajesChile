@@ -15,6 +15,7 @@
 #navbarSupportedContent a{
     color: white;
     margin: 5pt;
+    text-wrap: nowrap;
 }
 
 .mainArea {
